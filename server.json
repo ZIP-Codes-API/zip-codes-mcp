@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.zip-codes/api",
+  "title": "Zip-Codes.com Location Intelligence",
+  "description": "US address validation with census tract demographics, plus ZIP and Canadian postal code lookups.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.zip-codes.com/api/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zip-codes.com/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "Optional API key; without it the server runs in demo mode",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ZIP-Codes-API/zip-codes-mcp",
+    "source": "github"
+  }
+}
