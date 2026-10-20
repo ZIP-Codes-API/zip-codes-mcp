@@ -1,0 +1,10 @@
+{
+  "name": "zip-codes",
+  "version": "1.0.0",
+  "description": "Validate & geocode a US address; enrich with demographics, districts, counties, schools & much more.",
+  "mcpServers": {
+    "zip-codes": {
+      "httpUrl": "https://mcp.zip-codes.com/mcp"
+    }
+  }
+}

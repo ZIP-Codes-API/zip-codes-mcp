@@ -1,0 +1,9 @@
+Copyright (c) 2026 Datasheer, L.L.C. (Zip-Codes.com). All rights reserved.
+
+This repository holds documentation and client configuration for the Zip-Codes.com MCP server
+(https://mcp.zip-codes.com/mcp). It is not open source. You may download and use these files to
+connect an MCP client to the server, including installing this repository as a Gemini CLI
+extension. No other right to copy, modify or redistribute them is granted.
+
+The server, the Zip-Codes.com API and the data they return are proprietary. Their use is governed
+by the Terms of Service: https://www.zip-codes.com/api/tos

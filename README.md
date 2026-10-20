@@ -81,3 +81,7 @@ Email jharris@zip-codes.com. Issues are turned off on this repository; email rea
 - Overview: https://www.zip-codes.com/api/mcp
 - API docs: https://api.zip-codes.com/docs
 - Server overview for agents: https://mcp.zip-codes.com/llms.txt
+
+## License
+
+Proprietary. All rights reserved; see [LICENSE](LICENSE). Use of the server, API and data is governed by the Terms of Service: https://www.zip-codes.com/api/tos
