@@ -50,7 +50,7 @@ claude mcp add --transport http zip-codes https://mcp.zip-codes.com/mcp --header
 
 ### Claude / Claude Desktop custom connector
 
-Add `https://mcp.zip-codes.com/mcp` as a custom connector. Connectors send no custom header, so they run in demo mode.
+Add `https://mcp.zip-codes.com/mcp` as a custom connector. It runs in demo mode unless the connector form has a **Request headers** section (a beta for a limited set of organizations): there, add `x-api-key` with your key.
 
 ## Tools (11)
 
