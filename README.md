@@ -1,4 +1,4 @@
-# Zip-Codes.com Location Intelligence
+# Zip-Codes.com Location Intelligence: Spatial Analysis, Districts & 14+ Years of Demographics
 
 Location intelligence for US addresses and ZIP Codes, through the Model Context Protocol. Zip-Codes.com can validate a US street address and return its ZIP+4, census tract demographics, income, housing and school district in one call. It answers from current USPS data, updated monthly, and Census boundaries, so an agent looks addresses and ZIP Codes up instead of guessing them. Request the enrichments you need. The survey estimates describe the census tract and carry margins of error.
 
