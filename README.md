@@ -48,6 +48,8 @@ claude mcp add --transport http zip-codes https://mcp.zip-codes.com/mcp --header
 }
 ```
 
+Clients that only take a bearer token can send `Authorization: Bearer YOUR_KEY` instead.
+
 ### Claude / Claude Desktop custom connector
 
 Add `https://mcp.zip-codes.com/mcp` as a custom connector. It runs in demo mode unless the connector form has a **Request headers** section (a beta for a limited set of organizations): there, add `x-api-key` with your key.
