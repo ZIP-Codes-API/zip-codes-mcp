@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zip-codes",
+  "version": "1.0.0",
+  "description": "Let your agents validate US addresses to ZIP+4 and pull the census tract demographics behind them, plus ZIP Code and Canadian postal code lookups.",
+  "author": {
+    "name": "Zip-Codes.com",
+    "email": "jharris@zip-codes.com",
+    "url": "https://www.zip-codes.com/api/"
+  },
+  "homepage": "https://www.zip-codes.com/api/mcp",
+  "repository": "https://github.com/ZIP-Codes-API/zip-codes-mcp",
+  "license": "Proprietary",
+  "keywords": [
+    "zip code",
+    "zip+4",
+    "address validation",
+    "postal code",
+    "canadian postal code",
+    "census",
+    "demographics",
+    "radius search",
+    "reverse geocoding",
+    "school district",
+    "congressional district"
+  ]
+}

@@ -78,6 +78,8 @@ No key needed to start. A free key gives 2,500 credits a day; plans and credit p
 
 Email jharris@zip-codes.com. Issues are turned off on this repository; email reaches the people who run the server.
 
+Privacy policy: https://www.zip-codes.com/privacy-policy.asp
+
 ## Links
 
 - Overview: https://www.zip-codes.com/api/mcp
