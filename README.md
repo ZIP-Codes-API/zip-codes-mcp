@@ -4,7 +4,7 @@ Location intelligence for US addresses and ZIP Codes, through the Model Context 
 
 ZIP boundaries follow USPS carrier routes and are refreshed quarterly. Coverage includes PO Box and single-organization ZIP Codes that Census ZIP-area files leave out. Boundary enrichments show which counties and districts a ZIP overlaps, with shares measured by area. The USPS county assignment is available alongside the mapped counties.
 
-For history, request Census TIGER/Line boundaries from 2010–2025. American Community Survey profiles use consistent field names across 2011–2024 releases for ZIP Code areas and 2022–2024 for tracts. A ZIP's survey estimates come from the Census ZCTA with the same code.
+For history, request Census TIGER/Line boundaries from 2010–2026. American Community Survey profiles use consistent field names across 2011–2024 releases for ZIP Code areas and 2022–2024 for tracts. A ZIP's survey estimates come from the Census ZCTA with the same code.
 
 ## Connect
 
@@ -54,11 +54,12 @@ Clients that only take a bearer token can send `Authorization: Bearer YOUR_KEY` 
 
 Add `https://mcp.zip-codes.com/mcp` as a custom connector. It runs in demo mode unless the connector form has a **Request headers** section (a beta for a limited set of organizations): there, add `x-api-key` with your key.
 
-## Tools (11)
+## Tools (12)
 
 | Tool | Title | What it does |
 |---|---|---|
 | `about_data` | About this data | Where this server's data comes from: for each dataset the authority behind it, the edition served where the source publishes editions (TIGER/Line, ACS, ZCTA), how often a new release is taken, and a ready-made citation string. |
+| `buy_credits` | Buy credits | Buy a credit pack with a wallet that pays MPP (Machine Payments Protocol) challenges, such as Stripe Link. |
 | `city_name_rules` | City name rules | How USPS names a ZIP Code, and which of those names may be used on mail. |
 | `county_reference` | County reference | US counties and county equivalents — all 3,235 of them — with their Census and USPS names, which disagree for over a hundred, plus ANSI code, legal type, land and water area, and USPS delivery footprint. |
 | `distance` | Distance between two places | Distance between two places, in miles and kilometres, plus the compass bearing from the first to the second. |
