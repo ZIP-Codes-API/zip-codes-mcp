@@ -2,9 +2,25 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.zip-codes/api",
   "title": "Zip-Codes.com Location Intelligence: Spatial Analysis, Districts & 14+ Years of Demographics",
-  "description": "Validate & geocode a US address: demographics, districts & schools. Agents can buy credits via MPP.",
-  "version": "1.0.1",
+  "description": "Validate & geocode a US address: 14 years of demographics, districts & schools. Agents buy via MPP.",
+  "version": "1.1.0",
   "websiteUrl": "https://www.zip-codes.com/api/mcp",
+  "icons": [
+    {
+      "src": "https://www.zip-codes.com/api/images/icon/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://www.zip-codes.com/api/images/icon/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

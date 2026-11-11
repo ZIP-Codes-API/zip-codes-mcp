@@ -1,7 +1,7 @@
 {
   "name": "zip-codes",
   "version": "1.0.0",
-  "description": "Validate & geocode a US address: demographics, districts & schools. Agents can buy credits via MPP.",
+  "description": "Validate & geocode a US address: 14 years of demographics, districts & schools. Agents buy via MPP.",
   "mcpServers": {
     "zip-codes": {
       "httpUrl": "https://mcp.zip-codes.com/mcp"

@@ -4,7 +4,7 @@ Location intelligence for US addresses and ZIP Codes, through the Model Context 
 
 ZIP boundaries follow USPS carrier routes and are refreshed quarterly. Coverage includes PO Box and single-organization ZIP Codes that Census ZIP-area files leave out. Boundary enrichments show which counties and districts a ZIP overlaps, with shares measured by area. The USPS county assignment is available alongside the mapped counties.
 
-For history, request Census TIGER/Line boundaries from 2010–2026. American Community Survey profiles use consistent field names across 2011–2024 releases for ZIP Code areas and 2022–2024 for tracts. A ZIP's survey estimates come from the Census ZCTA with the same code.
+For history, request Census TIGER/Line boundaries from 2010–2026. American Community Survey profiles use consistent field names across the 2011–2024 releases, for ZIP Code areas and census tracts alike. A ZIP's survey estimates come from the Census ZCTA with the same code.
 
 MPP-capable: an optional buy_credits tool lets an agent with an MPP wallet (such as Stripe Link) buy a prepaid API key or add credits to one; the wallet's owner approves each payment.
 
